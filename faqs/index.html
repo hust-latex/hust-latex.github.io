@@ -1,0 +1,102 @@
+---
+layout: default
+title: hust-latex | FAQs
+---
+
+<div class="inner cover">
+
+<script type="text/javascript">
+function toggleElement(id)
+{
+    if(document.getElementById(id).style.display == 'none')
+    {
+        document.getElementById(id).style.display = '';
+    }
+    else
+    {
+        document.getElementById(id).style.display = 'none';
+    }
+}
+</script>
+
+
+<h4 id="learn-latex"><a href="javascript:toggleElement('learn-latex-answer')">Q: What's LaTeX? How can I learn it?</a></h4>
+<div id="learn-latex-answer" style="display:none">
+<p>LaTeX is a document preparation system and document markup language. It is widely used for the communication and publication of scientific documents in many fields, including mathematics, physics, and computer science. [Source: <a href="http://en.wikipedia.org/wiki/LaTeX"><span class="glyphicon glyphicon-globe"></span>&#32;Wikipedia</a>]</p>
+
+<p>For beginners, <a href="http://tobi.oetiker.ch/lshort/lshort.pdf"><span class="glyphicon glyphicon-book"></span>&#32;lshort</a> is the best book to begin with. Also there's <a href="https://github.com/xu-cheng/hust-latex-template/raw/master/tutorial/latex-tutorial.pdf"><span class="glyphicon glyphicon-file"></span>&#32;a tutorial slide</a> which introduces LaTeX and these templates.</p>
+</div>
+
+<h4 id="install"><a href="javascript:toggleElement('install-answer')">Q: How to install these templates?</a></h4>
+<div id="install-answer" style="display:none">
+<p>Firstly, you need to install the latest version of <a href="http://tug.org/texlive/"><span class="glyphicon glyphicon-globe"></span>&#32;TeXLive</a>, <a href="http://miktex.org/"><span class="glyphicon glyphicon-globe"></span>&#32;MikTeX</a> or <a href="https://tug.org/mactex/"><span class="glyphicon glyphicon-globe"></span>&#32;MacTeX</a>. Please ensure that all the packages are up-to-date.</p>
+
+<p>Then you need to install following Chinese fonts:
+<ul>
+    <li>AdobeSongStd-Light</li>
+    <li>AdobeKaitiStd-Regular</li>
+    <li>AdobeHeitiStd-Regular</li>
+    <li>AdobeFangsongStd-Regular</li>
+</ul></p>
+
+<p>Finally, download the template, run below command to install it:
+<ul>
+    <li>For Linux and Mac users, run <code>sudo make install</code>.</li>
+    <li>For Windows users, run <code>makewin32.bat install</code>.</li>
+</ul></p>
+
+<p>If you want to uninstall the template, run below command:
+<ul>
+    <li>For Linux and Mac users, run <code>sudo make uninstall</code>.</li>
+    <li>For Windows users, run <code>makewin32.bat uninstall</code>.</li>
+</ul></p>
+</div>
+
+<h4 id="install-troubleshooting"><a href="javascript:toggleElement('install-troubleshooting-answer')">Q: I get below errors during installation, how to solve it?</a></h4>
+<pre><code>
+This is LuaTeX, Version beta-0.71.1-2011082016 (rev 4277)
+(C:/Users/Administrator/hustthesis-master/hustthesis/hustthesis.ins)
+LaTeX2e &lt;2011/06/27&gt;
+LuaTeX adaptation of babel &lt;v3.81-luatex-1.4&gt; and hypenation patterns for loaded.
+! I can't find file `l3docstrip.tex'.
+l.22 \input l3docstrip.tex
+
+Please type another input file name:
+</code></pre>
+<div id="install-troubleshooting-answer" style="display:none">
+<p>This is because your LaTeX version is way too old. It's more than likely that you installed the <a href="http://www.ctex.org/"><span class="glyphicon glyphicon-globe"></span>&#32;CTeX</a>  which has been updated for years. I strongly recommend that you install <a href="http://tug.org/texlive/"><span class="glyphicon glyphicon-globe"></span>&#32;TeXLive</a>, <a href="http://miktex.org/"><span class="glyphicon glyphicon-globe"></span>&#32;MikTeX</a> or <a href="https://tug.org/mactex/"><span class="glyphicon glyphicon-globe"></span>&#32;MacTeX</a> insteadly.</p>
+</div>
+
+<h4 id="compile-troubleshooting"><a href="javascript:toggleElement('compile-troubleshooting-answer')">Q: I get below errors during compilation, how to solve it?</a></h4>
+<pre><code>
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...
+
+l.180 \changefont{linespread=1.3}
+
+?
+</code></pre>
+<div id="compile-troubleshooting-answer" style="display:none">
+<p>This is due to a bug in pgf 3.0. Before it's officially solved by <a href="http://sourceforge.net/p/pgf/bugs/306/"><span class="glyphicon glyphicon-globe"></span>&#32;upstream</a>, you need to downgrade pgf to v2.10.</p>
+</div>
+
+<h4 id="troubleshooting"><a href="javascript:toggleElement('troubleshooting-answer')">Q: I get other errors than mentioned above, what should I do?</a></h4>
+<div id="troubleshooting-answer" style="display:none">
+<p>Please report your problem in correspond Github issues page.</p>
+</div>
+
+<h4 id="contribution"><a href="javascript:toggleElement('contribution-answer')">Q: I want to contribute to this project, what should I do?</a></h4>
+<div id="contribution-answer" style="display:none">
+<p>If you were a huster and willing to contribute to this project, please contact <a href="http://itec.hust.edu.cn/~heixj/"><span class="glyphicon glyphicon-globe"></span>&#32;Prof. Hei Xiaojun</a>.</p>
+
+<p>Also this is a list of materials you may find helpful for developing LaTeX templates:
+<ul>
+    <li><a href="http://www.latex-project.org/guides/clsguide.pdf"><span class="glyphicon glyphicon-book"></span>&#32;LaTeX2e for class and package writers</a>.</li>
+    <li><a href="http://www.tex.ac.uk/ctan/info/dtxtut/dtxtut.pdf"><span class="glyphicon glyphicon-book"></span>&#32;How to Package Your LaTeX Package</a>.</li>
+</ul></p>
+</div>
+
+</div>
