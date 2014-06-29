@@ -1,0 +1,26 @@
+---
+layout: default
+title: hust-latex | Download
+---
+
+<div class="inner cover">
+
+{% for template in site.data.download %}
+<h2 id="{{ template.name }}">{{ template.name }}</h2>
+<p>{{ template.description | markdownify }}</p>
+<p><ul>
+    <li>Download:&#32;<a href="{{ template.download.zipball }}"><span class="glyphicon glyphicon-download-alt"></span>&#32;.zip</a>&#32;&#124;&#32;<a href="{{ template.download.tarball }}"><span class="glyphicon glyphicon-download-alt"></span>&#32;.tar.gz</a></li>
+    <li>Document:&#32;<a href="{{ template.document.url }}"><span class="glyphicon glyphicon-book"></span>&#32;{{ template.document.name }}</a></li>
+    <li>Example:&#32;
+    {% for example in template.example%}
+        <a href="{{ example.url }}"><span class="glyphicon glyphicon-book"></span>&#32;{{ example.name }}</a>
+        {% unless forloop.last%}
+            &#32;&#124;&#32;
+        {% endunless %}
+    {% endfor %}
+    </li>
+</ul></p>
+{% endfor %}
+
+
+</div>

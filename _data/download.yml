@@ -1,0 +1,65 @@
+- name: hustthesis
+  description: An Unofficial Thesis Template in LaTeX for [Huazhong University of Science and Technology](http://www.hust.edu.cn).
+  download:
+    zipball: https://github.com/hust-latex/hustthesis/zipball/master
+    tarball: https://github.com/hust-latex/hustthesis/tarball/master
+  document:
+    name: hustthesis.pdf
+    url: https://raw.github.com/hust-latex/hustthesis/master/hustthesis/hustthesis.pdf
+  example:
+    - name: hustthesis-zh-example.pdf
+      url: https://raw.github.com/hust-latex/hustthesis/master/hustthesis/hustthesis-zh-example.pdf
+    - name: hustthesis-en-example.pdf
+      url: https://raw.github.com/hust-latex/hustthesis/master/hustthesis/hustthesis-en-example.pdf
+
+- name: hustreport
+  description: An Unofficial Graduate Report Template in LaTeX for [Huazhong University of Science and Technology](http://www.hust.edu.cn).
+  download:
+    zipball: https://github.com/hust-latex/hustreport/zipball/master
+    tarball: https://github.com/hust-latex/hustreport/tarball/master
+  document:
+    name: hustreport.pdf
+    url: https://raw.github.com/hust-latex/hustreport/master/hustreport/hustreport.pdf
+  example:
+    - name: hustreport-zh-example.pdf
+      url: https://raw.github.com/hust-latex/hustreport/master/hustreport/hustreport-zh-example.pdf
+    - name: hustreport-en-example.pdf
+      url: https://raw.github.com/hust-latex/hustreport/master/hustreport/hustreport-en-example.pdf
+
+- name: hustbeamer
+  description: An Unofficial Slide Template in LaTeX for [Huazhong University of Science and Technology](http://www.hust.edu.cn).
+  download:
+    zipball: https://github.com/hust-latex/hustbeamer/zipball/master
+    tarball: https://github.com/hust-latex/hustbeamer/tarball/master
+  document:
+    name: hustbeamer.pdf
+    url: https://raw.github.com/hust-latex/hustbeamer/master/hustbeamer/hustbeamer.pdf
+  example:
+    - name: hustbeamer-example.pdf
+      url: https://raw.github.com/hust-latex/hustbeamer/master/hustbeamer/hustbeamer-example.pdf
+
+- name: husttrans
+  description: An Unofficial Translation Template in LaTeX for [Huazhong University of Science and Technology](http://www.hust.edu.cn).
+  download:
+    zipball: https://github.com/hust-latex/husttrans/zipball/master
+    tarball: https://github.com/hust-latex/husttrans/tarball/master
+  document:
+    name: husttrans.pdf
+    url: https://raw.github.com/hust-latex/husttrans/master/husttrans/husttrans.pdf
+  example:
+    - name: husttrans-example.pdf
+      url: https://raw.github.com/hust-latex/husttrans/master/husttrans/husttrans-example.pdf
+
+- name: itecreport
+  description: An Unofficial Technical Report Template in LaTeX for [the Internet Technology and Engineering R&D Center](http://itec.hust.edu.cn).
+  download:
+    zipball: https://github.com/hust-latex/itecreport/zipball/master
+    tarball: https://github.com/hust-latex/itecreport/tarball/master
+  document:
+    name: itecreport.pdf
+    url: https://raw.github.com/hust-latex/itecreport/master/itecreport/itecreport.pdf
+  example:
+    - name: itecreport-zh-example.pdf
+      url: https://raw.github.com/hust-latex/itecreport/master/itecreport/itecreport-zh-example.pdf
+    - name: itecreport-en-example.pdf
+      url: https://raw.github.com/hust-latex/itecreport/master/itecreport/itecreport-en-example.pdf

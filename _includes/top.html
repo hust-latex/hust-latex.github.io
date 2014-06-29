@@ -8,7 +8,13 @@
   <meta name="generator" content="Jekyll v{{ jekyll.version }}">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bootstrap/css/bootstrap-theme.min.css">
+
+  {% if page.overview %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/homepage.css">
+  {% else %}
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cover.css">
+  {% endif %}
+  
   <script type="text/javascript" src="{{ site.baseurl }}/bootstrap/js/bootstrap.min.js"></script>
   <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
