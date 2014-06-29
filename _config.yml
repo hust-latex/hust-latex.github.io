@@ -1,0 +1,6 @@
+baseurl: http://hust-latex.github.io
+repository: https://github.com/hust-latex/hust-latex.github.io
+githuburl: https://github.com/hust-latex
+exclude: [.gitignore,Gemfile,LICENSE,README.md]
+safe: true
+lsi: false
