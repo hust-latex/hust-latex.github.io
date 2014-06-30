@@ -4,3 +4,4 @@ githuburl: https://github.com/hust-latex
 exclude: [.gitignore,Gemfile,LICENSE,README.md]
 safe: true
 lsi: false
+google_analytics_id: UA-4293090-9
