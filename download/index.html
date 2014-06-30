@@ -3,8 +3,6 @@ layout: default
 title: hust-latex | Download
 ---
 
-<div class="inner cover">
-
 {% for template in site.data.download %}
 <h2 id="{{ template.name }}">{{ template.name }}</h2>
 <p>{{ template.description | markdownify }}</p>
@@ -21,5 +19,3 @@ title: hust-latex | Download
     </li>
 </ul></p>
 {% endfor %}
-
-</div>
