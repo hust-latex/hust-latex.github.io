@@ -38,6 +38,20 @@
     - name: hustbeamer-example.pdf
       url: https://raw.github.com/hust-latex/hustbeamer/master/hustbeamer/hustbeamer-example.pdf
 
+- name: hustproposal
+  description: An Unofficial Proposal Template in LaTeX for [Huazhong University of Science and Technology](http://www.hust.edu.cn).
+  download:
+    zipball: https://github.com/hust-latex/hustproposal/zipball/master
+    tarball: https://github.com/hust-latex/hustproposal/tarball/master
+  document:
+    name: hustproposal.pdf
+    url: https://raw.github.com/hust-latex/hustproposal/master/hustproposal/hustproposal.pdf
+  example:
+    - name: hustproposal-zh-example.pdf
+      url: https://raw.github.com/hust-latex/hustproposal/master/hustproposal/hustproposal-zh-example.pdf
+    - name: hustproposal-en-example.pdf
+      url: https://raw.github.com/hust-latex/hustproposal/master/hustproposal/hustproposal-en-example.pdf
+
 - name: husttrans
   description: An Unofficial Translation Template in LaTeX for [Huazhong University of Science and Technology](http://www.hust.edu.cn).
   download:
