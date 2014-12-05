@@ -78,7 +78,13 @@ l.180 \changefont{linespread=1.3}
 ?
 </code></pre>
 <div id="compile-troubleshooting-answer" style="display:none">
-<p>This is due to a bug in pgf 3.0. Before it's officially solved by <a href="http://sourceforge.net/p/pgf/bugs/306/"><span class="glyphicon glyphicon-globe"></span>&#32;upstream</a>, you need to downgrade pgf to v2.10.</p>
+<p>This is due to a bug in pgf 3.0. Before it's officially solved by <a href="http://sourceforge.net/p/pgf/bugs/306/"><span class="glyphicon glyphicon-globe"></span>&#32;upstream</a>, you need to downgrade pgf to v2.10. The full procedure is as follows:
+<ul>
+    <li>Download pgf v2.10 from <a href="http://sourceforge.net/projects/pgf/files/pgf/version%202.10/pgf_2.10.tds.zip/download"><span class="glyphicon glyphicon-globe"></span>&#32;here</a>.</li>
+    <li>Extract the archive and find the file <code>tex/generic/pgf/utilities/pgfkeys.code.tex</code>.</li>
+    <li>Locate the place <code>&lt;texlive path&gt;/&lt;texlive version&gt;/texmf-dist/tex/generic/pgf/utilities</code> in your system.</li>
+    <li>Use the file extracted from above to replace the file in your system.</li>
+</ul></p>
 </div>
 
 <h4 id="troubleshooting"><a href="javascript:toggleElement('troubleshooting-answer')">Q: I get other errors than mentioned above, what should I do?</a></h4>
